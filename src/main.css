@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "material-icons/iconfont/material-icons.css";
+
+
+.grid-calendar {
+  display: grid;  
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+
+.grid-calendar > div {
+  padding-top: 2.8rem;
+  padding-bottom: 3rem;
+  border: 1px solid #e2e8f0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.borderless {
+    border:none!important;
+}
+
+.paddingless {
+  padding:0!important;
+}
+
+.paddingMedium{
+  padding:1.6rem!important;
+}
+
