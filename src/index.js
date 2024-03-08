@@ -6,7 +6,7 @@ const nextBtnMain = document.getElementById('nextBtnMain');
 const prevBtnSide = document.getElementById('prevBtnSide');
 const nextBtnSide = document.getElementById('nextBtnSide');
 const sideCalendar = document.querySelector('#side-calendar');
-
+let varTest = 100;
 const daysWeekCompleto = [
   'Domingo',
   'Lunes',
